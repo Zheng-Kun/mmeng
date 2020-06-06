@@ -1,0 +1,116 @@
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, input, li, ol, p, pre, td, textarea, th, ul {
+  margin: 0;
+  padding: 0;
+}
+.sprite-icon{
+  background-image: url(../images/icon_sprite.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: -3px;
+  margin-right: 6px;
+}
+  
+
+.container{
+  width: 1200px;
+}
+.song-list-info {
+  position: relative;
+}
+.song-list-info::after{
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  width: 0;
+}
+.song-list-info .cover {
+  float: left;
+  width: 250px;
+  height: 250px;
+  background-image: url(../images/300.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 55px;
+}
+.song-list-info .info{
+  padding-top: 13px;
+}
+.song-list-info .info .song-list-name{
+  color: #000;
+  font-size: 31px;
+  line-height: 50px;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 70%;
+  margin-right: 10px;
+}
+.song-list-info .info .author{
+  margin-bottom: 8px;
+}
+.song-list-info .info .author .user-name{
+  color: #333;
+  font-size: 16px;
+}
+.song-list-info .info .author .user-icon{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-position: -20px -240px;
+  margin: 5px 7px 0 0;
+}
+.song-list-info .info .info-line{
+  height: 27px;
+  line-height: 27px;
+  width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+}
+.song-list-info .info .button-line{
+  /* position: absolute; */
+  /* bottom: 23px; */
+  margin-top: 24px;
+  font-size: 0;
+}
+.song-list-info .info .button-line .btn{
+  display: inline-block;
+  min-width: 122px;
+  text-align: center;
+  padding: 0 18px;
+
+  border-radius: 2px;
+  font-size: 14px;
+  margin-right: 6px;
+
+  height: 38px;
+  line-height: 38px;
+}
+.song-list-info .info .button-line .btn .btn-icon{
+  
+}
+.sprite-icon .player-icon{
+  width: 13px;
+  height: 16px;
+  background-position: -80px -220px;
+}
+.sprite-icon.collect-icon{
+  width: 16px;
+  height: 16px;
+  background-position: -60px 0;
+  vertical-align: -4px;
+}
+.sprite-icon.comment-icon{
+  width: 16px;
+  height: 16px;
+  background-position: -140px -120px;
+}
+.sprite-icon.more-icon{
+  width: 16px;
+  height: 16px;
+  background-position: -20px -80px;
+}
