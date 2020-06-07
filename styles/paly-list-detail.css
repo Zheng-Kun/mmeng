@@ -16,7 +16,7 @@
   float: left;
   width: 250px;
   height: 250px;
-  background-image: url(../images/300.jpg);
+  background-image: url(../static/300.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
