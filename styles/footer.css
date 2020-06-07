@@ -1,0 +1,127 @@
+footer{
+  background-color: #333;
+  color: #999;
+  font-size: 14px;
+}
+footer a,footer a:visited {
+  color: #999;
+}
+footer a:hover, a:active {
+  color: #31c27c;
+}
+footer .footer-container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.link .block{
+  display: inline-block;
+  vertical-align: top;
+}
+.link .block h4{
+  padding: 80px 0 46px;
+  font-weight: normal;
+}
+.app-list li:hover{
+  color: #31c27c;
+}
+.app-list .icon{
+  height: 48px;
+  display: inline-block;
+  margin: 0 29px 12px;
+  background-image: url(../images/footer.png);
+}
+.app-list .pc, .app-list .k-song{
+  margin-left: -29px;
+}
+.app-list {
+  margin-right: 120px;
+}
+.app-list li{
+  display: inline-block;
+}
+.app-list i {
+  display: block;
+}
+.app-list span {
+  display: block;
+  text-align: center;
+}
+
+.app-list li.pc .icon{
+  width: 37px;
+  background-position: -2px 0;
+}
+.app-list li.pc:hover .icon{
+  background-position: -2px -49px;
+}
+.app-list li.mac .icon{
+  width: 46px;
+  background-position: -92px 0;
+}
+.app-list li.mac:hover .icon{
+  background-position: -92px -49px;
+}
+
+.app-list li.android .icon{
+  width: 37px;
+  background-position: -190px 0;
+}
+.app-list li.android:hover .icon{
+  background-position: -190px -49px;
+}
+
+.app-list li.iphone .icon{
+  width: 34px;
+  background-position: -279px 0;
+}
+.app-list li.iphone:hover .icon{
+  background-position: -279px -49px;
+}
+
+.app-list li.k-song .icon{
+  width: 41px;
+  background-position: -370px 0;
+}
+.app-list li.k-song:hover .icon{
+  background-position: -370px -49px;
+}
+
+.app-list li.super-sound .icon{
+  width: 37px;
+  background-position: -463px 0;
+}
+.app-list li.super-sound:hover .icon{
+  background-position: -463px -49px;
+}
+
+.app-list li.q-play .icon{
+  width: 40px;
+  background-position: -563px 0;
+}
+.app-list li.q-play:hover .icon{
+  background-position: -563px -49px;
+}
+
+footer .link-list {
+  width: 300px;
+  font-size: 0;
+}
+footer .link-list li{
+  font-size: 14px;
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 12px;
+}
+
+
+footer .about{
+  margin-top: 46px;
+  padding: 24px 0;
+  text-align: center;
+  line-height: 28px;
+}
+footer .about .first-line a{
+  /* display: inline-block; */
+  margin: 0 3px;
+}

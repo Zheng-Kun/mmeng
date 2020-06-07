@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QQ音乐 | 爱生活-爱音乐</title>
+  <title>QQ音乐-歌单详情页</title>
   <link rel="stylesheet" href="../styles/common.css">
   <link rel="stylesheet" href="../styles/header.css">
+  <link rel="stylesheet" href="../styles/paly-list-detail.css">
   <link rel="stylesheet" href="../styles/footer.css">
 </head>
 <body>
@@ -31,7 +32,81 @@
   </nav>
 
   <div class="container">
-    。。。首页内容。。。
+    <div class="song-list-info">
+      <div class="cover"></div>
+      <div class="info">
+        <h1 class="song-list-name">孤独·寂静的夜藏着一个人的独白</h1>
+        <p class="author">
+          <i class="user-icon sprite-icon"></i>
+          <span class="user-name"><a>mengmeng</a></span>
+        </p>
+        <div class="info-line">
+          标签：
+          <span class="value">
+            <a href="">伤感</a>
+            <a href="">流行</a>
+            <a href="">国语</a>
+          </span>
+        </div>
+        <div class="info-line">
+          播放量：
+          <span class="value">121.4万</span>
+        </div>
+        <div class="info-line">
+          收藏量：
+          <span class="value">5341</span>
+        </div>
+        <div class="button-line">
+          <div class="btn">
+            <i class="btn-icon player-icon sprite-icon"></i>
+            <span class="btn-text">播放全部</span>
+          </div>
+          <div class="btn">
+            <i class="btn-icon collect-icon sprite-icon"></i>
+            <span class="btn-text">收藏</span>
+          </div>
+          <div class="btn">
+            <i class="btn-icon comment-icon sprite-icon"></i>
+            <span class="btn-text">评论</span>
+          </div>
+          <div class="btn">
+            <i class="btn-icon more-icon sprite-icon"></i>
+            <span class="btn-text">更多</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="song-list-content">
+      <ul>
+        <li>
+          <span class="order"></span>
+          <span class="song">歌曲</span>
+          <span class="artist">歌手</span>
+          <span class="album">专辑</span>
+          <span class="time">时长</span>
+        </li>
+        <li>
+          <span class="order">1</span>
+          <span class="song">
+            <span class="song-name">写给我第一个喜欢的女孩的歌</span>
+            <i class="exclusive" title="独家"></i>
+            <div class="menu-list">
+              <a class="sprite-icon play-icon"></a>
+              <a class="sprite-icon add-icon"></a>
+              <a class="sprite-icon down-icon"></a>
+              <a class="sprite-icon share-icon"></a>
+            </div>
+          </span>
+          <span class="artist">歌手</span>
+          <span class="album">专辑</span>
+          <span class="time">时长</span>
+        </li>
+      </ul>
+      <div class="desc">
+        <p class="desc-title">简介</p>
+        <p class="desc-content">心情不好就少听悲伤的歌 饿了就自己找吃的 怕黑就开灯</p>
+      </div>
+    </div>
   </div>
 
   <footer>
@@ -114,6 +189,5 @@
       </div>
     </div>
   </footer>
-
 </body>
 </html>

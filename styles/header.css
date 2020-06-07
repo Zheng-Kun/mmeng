@@ -1,0 +1,103 @@
+nav{
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  /* box-shadow: 0 0 20px rgba(255, 255, 255, 1); */
+  box-shadow: 0 0 5px rgba(100, 100, 100, 0.4);
+  border-bottom: 1px solid rgba(221, 221, 221, 0.5);
+}
+nav .nav-container{
+  width: 1200px;
+  height: 90px;
+  margin: 0 auto;
+}
+nav .nav-container .selected {
+  background-color: #31c27c;
+  color: #fff !important;
+}
+nav .nav-container .logo-container{
+  width: 170px;
+  vertical-align: top;
+  background-image: url(../images/qq-logo.png);
+  background-size: 170px 46px;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+nav .nav-container li{
+  display: inline-block;
+  height: 100%;
+  padding: 0 20px;
+  font-size: 18px;
+  line-height: 90px;
+  cursor: pointer;
+}
+nav .nav-container li:hover{
+  color: #31c27c;
+}
+nav .nav-container .right-container{
+  float: right;
+  height: 100%;
+  line-height: 90px;
+}
+nav .nav-container .right-container .search-container{
+  display: inline-block;
+  border: 1px solid #c9c9c9;
+  padding: 0 33px 0 11px;
+  line-height: 36px;
+  height: 36px;
+  margin-top: 26px;
+  position: relative;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.search-container input{
+  width: 174px;
+  height: 36px;
+  border: 0 none;
+  font-size: 14px;
+  background: 0 0;
+  line-height: 1.5;
+  color: #000;
+  outline: none;
+
+}
+.search-container .search-icon{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 11px;
+  margin-top: -8px;
+  width: 16px;
+  height: 16px;
+  background-position: 0 -40px;
+  background-image: url(../images/icon_sprite.png);
+}
+.search-container input:focus {
+  outline-offset: -2px;
+}
+.right-container .avatar{
+  display: inline-block;
+  margin-top: 24px;
+  margin-left: 10px;
+  height: 38px;
+  width: 38px;
+  vertical-align: top;
+  background-image: url(../images/avatar.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+nav .second-banner {
+  border-top: 1px solid #f2f2f2;
+  line-height: 51px;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+nav .second-banner a{
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 47px;
+}

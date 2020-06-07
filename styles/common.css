@@ -1,0 +1,31 @@
+/* =============公共样式=========== */
+/* 基础样式 */
+html, body {
+  padding: 0;
+  margin: 0;
+  min-width: 1200px;
+}
+div, p, input, ul, ol, input, li, span, h1, h2, h3, h4, h5, h6, nav, footer, i {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*  链接样式 */
+a, a:visited{
+  color: #000;
+  text-decoration: none;
+}
+a:hover, a:active, a.active{
+  color: #31c27c;
+}
+
+/* 雪碧图icon */
+.sprite-icon{
+  background-image: url(../images/icon_sprite.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: -3px;
+  margin-right: 6px;
+}
+
