@@ -29,3 +29,28 @@ a:hover, a:active, a.active{
   margin-right: 6px;
 }
 
+/* 按钮*/
+.mm-btn{
+  padding: 0 18px;
+  font-size: 14px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.green-btn{
+  color: white;
+  border: 1px solid #31c27c;
+  background-color: #31c27c;
+}
+.green-btn:hover{
+  background-color: #2caf6f;
+  border-color: #2caf6f;
+}
+.white-btn{
+  border: 1px solid #c9c9c9;
+  color: #000;
+}
+.white-btn:hover{
+  background-color: #ededed;
+  color: #333;
+}
+
