@@ -82,7 +82,7 @@ body{
   height: 38px;
   line-height: 38px;
 }
-.sprite-icon .player-icon{
+.sprite-icon.player-icon{
   width: 13px;
   height: 16px;
   background-position: -80px -220px;
