@@ -58,3 +58,44 @@ a:hover, a:active, a.active{
   color: #333;
 }
 
+/* 下载浮窗样式 */
+.pop-guide{
+  position: fixed;
+  top: 164px;
+  right: 40px;
+  z-index: 1001;
+  padding: 18px;
+  border-radius: 4px;
+  box-shadow: 0 3px 5px rgba(0,0,0,.07);
+  background-color: #fff;
+}
+.pop-guide .popup-guide-logo{
+  display: block;
+  margin: 0 auto 9px;
+  width: 102px;
+}
+.pop-guide .popup-guide-txt{
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #a6a6a6;
+  text-align: center;
+}
+.pop-guide .green-btn{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 130px;
+  height: 26px;
+  border-radius: 26px;
+  line-height: 26px;
+  font-size: 15px;
+}
+.pop-guide .green-btn .sprite-icon{
+  display: inline-block;
+  margin-right: 4px;
+  vertical-align: -1px;
+  width: 13px;
+  height: 14px;
+  background-position: -160px -320px;
+}
+
