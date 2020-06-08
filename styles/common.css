@@ -15,6 +15,7 @@ div, p, input, ul, ol, input, li, span, h1, h2, h3, h4, h5, h6, nav, footer, i {
 a, a:visited{
   color: #000;
   text-decoration: none;
+  cursor: pointer;
 }
 a:hover, a:active, a.active{
   color: #31c27c;
@@ -27,6 +28,9 @@ a:hover, a:active, a.active{
   display: inline-block;
   vertical-align: -3px;
   margin-right: 6px;
+}
+.list-menu-icon{
+  background-image: url(../images/icon_list_menu.png);
 }
 
 /* 按钮*/
