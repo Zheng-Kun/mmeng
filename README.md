@@ -3,7 +3,7 @@
 
 ## 一、项目文件结构
 ### 页面文件（除入口页面，其余页面均存放在`pages`目录中）
-- `index.html` 为入口文件（网站首页）
+- `index.html` 为入口文件（网站首页, 待开发）
 - `pages/paly-list-detail.html` 为歌单详情页
 - `pages/paly-list-list.html` 为歌单列表页
 
@@ -15,5 +15,5 @@
 
 ### 图片文件
 - `images` 目录中存放页面用到的各种图标文件
-- `inLove` 目录中存放歌单列表页用到的专辑封面图
-- `static` 目录中存放其他素材图片
+- `images/inLove` 目录中存放歌单列表页用到的专辑封面图
+- `images/download` 目录中存放下载页用到的素材图片
