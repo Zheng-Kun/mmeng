@@ -1,0 +1,165 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+.full-screen{
+  height: 100%;
+  min-height: 600px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+a{
+  color: white;
+}
+.download-sprite{
+  background-image: url(../images/download/download-sprite.png);
+}
+.green{
+  color: #31c27c;
+}
+.first{
+  background-image: url(../images/download/banner_pc.webp);
+}
+.count{
+  background-image: url(../images/download/8628.jpg);
+}
+.share{
+  background-image: url(../images/download/bg_lyric.webp);
+}
+.recommend{
+  background-image: url(../images/download/bg_like.webp);
+}
+.platform{
+  background-image: url(../images/download/bg_synchro.webp);
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: rgba(0,0,0,.3);
+  z-index: 3;
+  color: white;
+}
+.header .menu-container{
+  position: relative;
+  margin: 17px auto;
+  width: 996px;
+  height: 46px;
+}
+.header .top-logo{
+  display: block;
+  float: left;
+  width: 159px;
+  height: 46px;
+  margin-right: 80px;
+  background: url(../images/logo.webp) 0 0 no-repeat;
+}
+.header .menu-nav{
+  float: left;
+  font-size: 20px;
+  margin-right: 80px;
+  line-height: 40px;
+}
+.header .menu-home{
+  float: right;
+  display: block;
+  float: right;
+  margin-left: 27px;
+  line-height: 40px;
+  font-size: 20px;
+}
+.footer{
+  position: absolute;
+  background: rgba(0,0,0,.3);
+  bottom: 0;
+  width: 100%;
+  height: 72px;
+  padding: 14px 0;
+}
+.footer p{
+  text-align: center;
+  height: 22px;
+  line-height: 22px;
+  color: white;
+  font-size: 12px;
+}
+.footer p a{
+  margin-left: 6px;
+}
+
+.first .mod-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -294px;
+  margin-top: -195px;
+  width: 587px;
+  height: 145px;
+  background-position: 0 -312px;
+}
+.first .btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 12px;
+  margin-left: -146px;
+  width: 293px;
+  height: 69px;
+  text-indent: -99em;
+  z-index: 9;
+  background-position: -416px -859px;
+}
+.first .download-list{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 190px;
+  text-align: center;
+}
+.download-list .divider{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  opacity: .12;
+}
+.download-list .down-btn{
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  height: 170px;
+  margin-right: 185px;
+  vertical-align: top;
+  opacity: .4;
+}
+.download-list .down-btn.current{
+  opacity: 1;
+}
+.download-list .down-btn.current::after{
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+.down-btn.win-btn{
+  background-position: -366px -940px;
+}
+.down-btn.mac-btn{
+  background-position: -244px -940px;
+}
+.down-btn.iphone-btn{
+  background-position: -122px -940px;
+}
+.down-btn.android-btn{
+  background-position: 0 -940px;
+}
