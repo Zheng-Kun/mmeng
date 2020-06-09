@@ -231,4 +231,104 @@ a{
   width: 350px;
   height: 604px;
   background-image: url(../images/download/lyric_phone2.webp);
+  background-repeat: no-repeat;
+}
+.recommend .recommend-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -113px;
+  width: 615px;
+  height: 143px;
+  background-position: 0 -157px;
+}
+
+.recommend .recommend-desc{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: 68px;
+  width: 550px;
+  height: 69px;
+  background-position: 0 -778px;
+}
+.recommend .phone-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -556px;
+  margin-top: -349px;
+  width: 520px;
+  height: 807px;
+}
+.recommend .phone-container .phone-box{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 450px;
+  height: 778px;
+  background-image: url(../images/download/like_phonebox.webp);
+  z-index: 3;
+}
+.recommend .phone-container .like{
+  position: absolute;
+  top: 176px;
+  left: 61px;
+  width: 374px;
+  height: 500px;
+  background-image: url(../images/download/like_phone.webp);
+  transform: rotate(-5.5deg);
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.platform .title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -580px;
+  margin-top: -270px;
+  width: 544px;
+  height: 136px;
+  background-position: 0 -630px;
+}
+.platform .desc{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -580px;
+  margin-top: -108px;
+  width: 454px;
+  height: 63px;
+  background-position: -562px -778px;
+}
+.platform .phone{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: 0;
+  width: 255px;
+  height: 329px;
+  background-image: url(../images/download/synchro_phone.webp);
+}
+.platform .mac{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -392px;
+  width: 620px;
+  height: 784px;
+  background: url(../images/download/synchro_mac1.webp) 0 0 no-repeat;
+  z-index: 2;
+}
+.platform .mac2{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 620px;
+  height: 376px;
+  background: url(../images/download/synchro_mac2.webp) 0 0 no-repeat;
 }
