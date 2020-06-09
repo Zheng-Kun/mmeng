@@ -40,7 +40,7 @@ a{
   width: 100%;
   height: 80px;
   background: rgba(0,0,0,.3);
-  z-index: 3;
+  z-index: 10086;
   color: white;
 }
 .header .menu-container{
@@ -138,7 +138,8 @@ a{
   vertical-align: top;
   opacity: .4;
 }
-.download-list .down-btn.current{
+.download-list .down-btn.current,
+.download-list .down-btn:hover{
   opacity: 1;
 }
 .download-list .down-btn.current::after{
@@ -162,4 +163,72 @@ a{
 }
 .down-btn.android-btn{
   background-position: 0 -940px;
+}
+
+.count .count-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -283px;
+  margin-top: -100px;
+  width: 566px;
+  height: 74px;
+  background-position: -556px -630px;
+}
+.count .count-desc{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 0;
+  margin-left: -202px;
+  width: 404px;
+  height: 69px;
+  background-position: 0 -859px;
+}
+
+.share .share-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -504px;
+  margin-top: -130px;
+  width: 554px;
+  height: 149px;
+  background-position: 0 -469px;
+}
+.share .share-desc{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -504px;
+  margin-top: 50px;
+  width: 468px;
+  height: 69px;
+  background-position: -636px -493px;
+}
+.share .phone-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: 50px;
+  margin-top: -430px;
+  width: 580px;
+  height: 892px;
+}
+.share .phone-container .phone{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 580px;
+  height: 892px;
+  background-image: url(../images/download/lyric_phonebox.webp);
+}
+.share .phone-container .lyric{
+  position: absolute;
+  transform: rotate(7.5deg);
+  top: 138px;
+  left: 99px;
+  width: 350px;
+  height: 604px;
+  background-image: url(../images/download/lyric_phone2.webp);
 }
