@@ -1,6 +1,5 @@
 nav{
   background: #fff;
-  /* position: sticky; */
   top: 0;
   z-index: 2;
   /* box-shadow: 0 0 20px rgba(255, 255, 255, 1); */
@@ -14,7 +13,9 @@ nav .nav-container{
 }
 nav .nav-container .selected {
   background-color: #31c27c;
-  color: #fff !important;
+}
+nav .nav-container .selected a{
+  color: #fff;
 }
 nav .nav-container .logo-container{
   width: 170px;
