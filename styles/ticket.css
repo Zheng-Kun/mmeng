@@ -1,0 +1,281 @@
+.ticket-nav{
+  background: linear-gradient(to bottom, #f3f3f3 , #fafafa);;
+  padding-top: 28px;
+  padding-bottom: 50px;
+}
+.ticket-nav .search-line{
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  position: relative;
+}
+.ticket-nav .search-line::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.ticket-nav .search-line .search-input-container{
+  position: relative;
+  float: left;
+  border: 1px solid #c9c9c9;
+  padding-right: 48px;
+  height: 50px;
+  width: 450px;
+}
+.search-input-container input{
+  width: 402px;
+  font-size: 16px;
+  height: 48px;
+  border: 0 none;
+  line-height: 1.5;
+  padding-left: 11px;
+  outline: none;
+}
+.search-input-container .search-btn{
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background: #01bc83;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.search-input-container .search-btn .sprite-icon{
+  background-image: url(../images/sprite_ticket.png);
+  margin-top: 12px;
+  margin-left: 12px;
+  width: 22px;
+  height: 22px;
+  background-position: 0 0;
+}
+
+.search-line .my-order{
+  float: right;
+  line-height: 1.5;
+  margin-top: 13px;
+  font-size: 16px;
+  /* color: #000; */
+}
+.search-line .my-order .right-arrow{
+  display: inline-block;
+  width: 7px;
+  height: 12px;
+  background-position: -120px -40px;
+  margin-left: 6px;
+  vertical-align: 0;
+}
+.search-line .my-order:hover .right-arrow{
+  background-position: -120px -60px;
+}
+.ticket-nav .menu-list{
+  width: 1200px;
+  margin: 0 auto;
+}
+.ticket-nav .menu-list::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.menu-list .menu-item{
+  width: 14.2857%;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+.menu-item .ticket-icon{
+  display: inline-block;
+  vertical-align: -6px;
+  margin-right: 7px;
+  width: 31px;
+  height: 31px;
+  background-image: url(../images/icon_ticket.png);
+}
+.menu-item .title{
+  display: inline-block;
+  color: #333;
+}
+.menu-item:hover .title,
+.menu-item.current .title{
+  color: #01bc83;
+}
+.menu-item .ticket-icon.all{
+  background-position: -280px -40px;
+}
+/* .menu-item:hover .ticket-icon.all{} */
+.menu-item .ticket-icon.show{
+  background-position: -40px 0;
+}
+.menu-item:hover .ticket-icon.show{
+  background-position: -40px -40px;
+}
+.menu-item .ticket-icon.livehouse{
+  background-position: -360px 0;
+}
+.menu-item:hover .ticket-icon.livehouse{
+  background-position: -360px -40px;
+}
+.menu-item .ticket-icon.concert{
+  background-position: -80px 0;
+}
+.menu-item:hover .ticket-icon.concert{
+  background-position: -80px -40px;
+}
+.menu-item .ticket-icon.dance{
+  background-position: -160px 0;
+}
+.menu-item:hover .ticket-icon.dance{
+  background-position: -160px -40px;
+}
+.menu-item .ticket-icon.drama{
+  background-position: -200px 0;
+}
+.menu-item:hover .ticket-icon.drama{
+  background-position: -200px -40px;
+}
+.menu-item .ticket-icon.others{
+  background-position: -320px 0;
+}
+.menu-item:hover .ticket-icon.others{
+  background-position: -320px -40px;
+}
+
+
+.live-house-container {
+  padding: 50px 0;
+  background: linear-gradient(to bottom, #f2f2f2 , #fff);
+}
+.live-house-container .header-line{
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  position: relative;
+}
+.live-house-container .header-line h2{
+  font-size: 32px;
+  color: #333;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 14px;
+}
+.live-house-container .header-line a{
+  position: absolute;
+  right: 0;
+  top: 23px;
+}
+.live-house-container .header-line .right-arrow{
+  display: inline-block;
+  width: 7px;
+  height: 12px;
+  background-position: -120px -40px;
+  margin-left: 6px;
+  vertical-align: 0;
+}
+.live-house-container .header-line a:hover .right-arrow{
+  background-position: -120px -60px;
+}
+
+.ticket-grid{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  height: 416px;
+}
+.ticket-grid .left-big{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 316px;
+  height: 416px;
+  overflow: hidden;
+}
+.ticket-grid .left-big img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ticket-grid .left-big .inner-info{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 12px 16px 10px;
+  background-color: rgba(0,0,0,.8);
+}
+
+.ticket-grid .left-big .inner-info h3{
+  margin-bottom: 2px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;/* 两行溢出省略 */
+  display: -webkit-box; /* 两行溢出省略 */
+  -webkit-line-clamp: 2;/* 两行溢出省略 */
+  -webkit-box-orient: vertical;/* 两行溢出省略 */
+}
+p.price{
+  font-size: 16px;
+  color: #fff;
+}
+p.price em {
+  font-size: 24px;
+  font-style: normal;
+}
+p.price.green{
+  color: #01bc83;
+}
+.right-container{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 854px;
+}
+.right-container .ticket-item{
+  width: 50%;
+  float: left;
+  margin-bottom: 28px;
+}
+.right-container .ticket-item .ticket-img{
+  float: left;
+  margin: 0 16px 0 11px;
+  width: 148px;
+  height: 194px;
+  overflow: hidden;
+}
+.right-container .ticket-item .ticket-img img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.right-container .ticket-item .ticket-info{
+  position: relative;
+  display: block;
+  margin-right: 11px;
+  height: 194px;
+  overflow: hidden;
+}
+
+.right-container .ticket-item .ticket-info .ticket-title{
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 400;
+  line-height: 1.8;
+  overflow: hidden;
+}
+.right-container .ticket-item .ticket-info .text-line{
+  font-size: 14px;
+  color: #777;
+}
+
+.right-container .ticket-item .ticket-info .price{
+  position: absolute;
+  bottom: 0;
+}
