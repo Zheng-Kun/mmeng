@@ -171,8 +171,6 @@
 .song-list-content .song-list-list li:hover .song-name{
   max-width: 280px;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   vertical-align: bottom;
   display: inline-block;
 }
@@ -185,8 +183,6 @@
   padding-right: 10px;
 
   overflow: hidden; /* 溢出隐藏 */
-  text-overflow: ellipsis; /* 溢出显示省略号*/
-  white-space: nowrap; /* 禁止折行*/
 }
 .table-cel.gray-color{
   color: #999;

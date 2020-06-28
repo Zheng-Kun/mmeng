@@ -1,7 +1,7 @@
 nav{
   background: #fff;
-  top: 0;
-  z-index: 2;
+  /* top: 0; */
+  /* z-index: 2; */
   /* box-shadow: 0 0 20px rgba(255, 255, 255, 1); */
   box-shadow: 0 0 5px rgba(100, 100, 100, 0.4);
   border-bottom: 1px solid rgba(221, 221, 221, 0.5);
@@ -57,8 +57,6 @@ nav .nav-container .right-container .search-container{
   height: 36px;
   border: 0 none;
   font-size: 14px;
-  background: 0 0;
-  line-height: 1.5;
   color: #000;
   outline: none;
 
@@ -74,9 +72,7 @@ nav .nav-container .right-container .search-container{
   background-position: 0 -40px;
   background-image: url(../images/icon_sprite.png);
 }
-.search-container input:focus {
-  outline-offset: -2px;
-}
+
 .right-container .avatar{
   display: inline-block;
   margin-top: 24px;

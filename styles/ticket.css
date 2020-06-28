@@ -214,10 +214,6 @@
   color: #fff;
   font-weight: 400;
   overflow: hidden;
-  text-overflow: ellipsis;/* 两行溢出省略 */
-  display: -webkit-box; /* 两行溢出省略 */
-  -webkit-line-clamp: 2;/* 两行溢出省略 */
-  -webkit-box-orient: vertical;/* 两行溢出省略 */
 }
 p.price{
   font-size: 16px;

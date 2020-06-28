@@ -9,15 +9,18 @@ div, p, input, ul, ol, input, li, span, h1, h2, h3, h4, h5, h6, nav, footer, i {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* 去掉列表前面的序号 */
   list-style: none;
 }
 /*  链接样式 */
 a, a:visited{
   color: #000;
+  /* 去掉下划线 */
   text-decoration: none;
+  /* 鼠标浮上去的样式是小手 */
   cursor: pointer;
 }
-a:hover, a:active, a.active{
+a:hover, a:active{
   color: #31c27c;
 }
 
@@ -26,6 +29,7 @@ a:hover, a:active, a.active{
   background-image: url(../images/icon_sprite.png);
   background-repeat: no-repeat;
   display: inline-block;
+  /* 垂直对齐的方式 */
   vertical-align: -3px;
   margin-right: 6px;
 }
@@ -60,18 +64,19 @@ a:hover, a:active, a.active{
 
 /* 下载浮窗样式 */
 .pop-guide{
+  /* 相对页面窗口定位 */
   position: fixed;
   top: 164px;
   right: 40px;
   z-index: 1001;
   padding: 18px;
   border-radius: 4px;
-  box-shadow: 0 3px 5px rgba(0,0,0,.07);
+  box-shadow: 0 3px 5px rgba(0,0,0,0.07);
   background-color: #fff;
 }
 .pop-guide .popup-guide-logo{
   display: block;
-  margin: 0 auto 9px;
+  margin: 0 auto 9px auto;
   width: 102px;
 }
 .pop-guide .popup-guide-txt{
@@ -86,8 +91,8 @@ a:hover, a:active, a.active{
   margin: 0 auto;
   width: 130px;
   height: 26px;
-  border-radius: 26px;
-  line-height: 26px;
+  border-radius: 50%;
+  line-height: 13px;
   font-size: 15px;
 }
 .pop-guide .green-btn .sprite-icon{
@@ -96,6 +101,7 @@ a:hover, a:active, a.active{
   vertical-align: -1px;
   width: 13px;
   height: 14px;
+  /* 背景图片的位置 */
   background-position: -160px -320px;
 }
 

@@ -19,7 +19,7 @@ footer .footer-container{
   vertical-align: top;
 }
 .link .block h4{
-  padding: 80px 0 46px;
+  padding: 80px 0 46px 0;
   font-weight: normal;
 }
 .app-list li:hover{
@@ -28,7 +28,7 @@ footer .footer-container{
 .app-list .icon{
   height: 48px;
   display: inline-block;
-  margin: 0 29px 12px;
+  margin: 0 29px 12px 29px;
   background-image: url(../images/footer.png);
 }
 .app-list .pc, .app-list .k-song{
@@ -122,6 +122,5 @@ footer .about{
   line-height: 28px;
 }
 footer .about .first-line a{
-  /* display: inline-block; */
   margin: 0 3px;
 }

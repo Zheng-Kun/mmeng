@@ -36,9 +36,7 @@ body{
   font-size: 31px;
   line-height: 50px;
   font-weight: 400;
-  white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
   max-width: 70%;
   margin-right: 10px;
 }
@@ -60,9 +58,7 @@ body{
   height: 27px;
   line-height: 27px;
   width: 400px;
-  white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
   font-size: 14px;
 }
 .song-list-info .info .button-line{
@@ -148,10 +144,7 @@ body{
   line-height: 50px;
   vertical-align: bottom;
   padding-right: 10px;
-
   overflow: hidden; /* 溢出隐藏 */
-  text-overflow: ellipsis; /* 溢出显示省略号*/
-  white-space: nowrap; /* 禁止折行*/
 }
 .table-cel.gray-color{
   color: #999;
