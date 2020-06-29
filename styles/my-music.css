@@ -37,32 +37,7 @@
   margin-right: 4px;
   color: white;
 }
-.user-container .user-name .vip-icon{
-  display: inline-block;
-  height: 36px;
-  width: 36px;
-  background-image: url(../images/svip_g@2x.png);
-}
-.user-container .user-account{
-  text-align: center;
-  font-size: 0;
-}
-.user-container .user-account .statistic-item{
-  display: inline-block;
-  width: auto;
-  text-align: center;
-  padding: 0 25px;
-}
-.user-container .user-account .statistic-item.left{
-  border-right: solid 1px #24313d;
-}
-.user-account .statistic-item .count{
-  font-size: 22px;
-}
-.user-account .statistic-item .label{
-  font-size: 14px;
-  color: white;
-}
+
 .profile-nav{
   position: absolute;
   width: 100%;
@@ -128,26 +103,6 @@
   height: 38px;
   line-height: 38px;
 }
-.sprite-icon.player-icon{
-  width: 13px;
-  height: 16px;
-  background-position: -80px -220px;
-}
-.sprite-icon.add-icon{
-  width: 16px;
-  height: 16px;
-  background-position: -20px 0;
-}
-.sprite-icon.down-icon{
-  width: 16px;
-  height: 16px;
-  background-position: -40px -220px;
-}
-.sprite-icon.select-icon{
-  width: 16px;
-  height: 16px;
-  background-position: -120px 0;
-}
 
 .song-list-content{
   position: relative;
@@ -159,21 +114,7 @@
 .song-list-content .song-list-list li:nth-child(2n-1){
   background-color: #fbfbfd;
 }
-.song-list-content .song-list-list li .menu-list{
-  background-color: white;
-}
-.song-list-content .song-list-list li:nth-child(2n-1) .menu-list{
-  background-color: #fbfbfd;
-}
-.song-list-content .song-list-list li:hover .menu-list{
-  display: block;
-}
-.song-list-content .song-list-list li:hover .song-name{
-  max-width: 280px;
-  overflow: hidden;
-  vertical-align: bottom;
-  display: inline-block;
-}
+
 .song-list-content .song-list-list .table-cel{
   display: inline-block;
   font-size: 14px;
@@ -192,56 +133,8 @@
   width: 46%;
   position: relative;
 }
-.song-list-content .song-list-list .song .song-origin{
-  color: #999;
-  margin-left: 10px;
-  font-size: 14px;
-  cursor: pointer;
-}
-.song-list-content .song-list-list .song .sprite-icon.exclusive{
-  height: 16px;
-  width: 34px;
-  background-position: -80px -280px;
-  vertical-align: middle;
-  margin:0 6px;
-}
-.song-list-content .song-list-list .song .menu-list{
-  position: absolute;
-  display: none;
-  padding: 7px 0;
-  right: 10px;
-  top: 0;
-  height: 50px;
-}
-.song-list-content .song-list-list .song .sprite-icon{
-  width: 36px;
-  height: 36px;
-  cursor: pointer;
-}
-.song .sprite-icon.play-icon{
-  background-position: 0 0;
-}
-.song .sprite-icon.play-icon:hover{
-  background-position: -40px 0;
-}
-.song .sprite-icon.add-icon{
-  background-position: 0 -80px;
-}
-.song .sprite-icon.add-icon:hover{
-  background-position: -40px -80px;
-}
-.song .sprite-icon.down-icon{
-  background-position: 0 -280px;
-}
-.song .sprite-icon.down-icon:hover{
-  background-position: -40px -280px;
-}
-.song .sprite-icon.share-icon{
-  background-position: 0 -40px;
-}
-.song .sprite-icon.share-icon:hover{
-  background-position: -40px -40px;
-}
+
+
 .song-list-content .song-list-list .artist{
   width: 22%;
 }

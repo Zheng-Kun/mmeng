@@ -52,55 +52,35 @@ footer .footer-container{
   width: 37px;
   background-position: -2px 0;
 }
-.app-list li.pc:hover .icon{
-  background-position: -2px -49px;
-}
+
 .app-list li.mac .icon{
   width: 46px;
   background-position: -92px 0;
-}
-.app-list li.mac:hover .icon{
-  background-position: -92px -49px;
 }
 
 .app-list li.android .icon{
   width: 37px;
   background-position: -190px 0;
 }
-.app-list li.android:hover .icon{
-  background-position: -190px -49px;
-}
 
 .app-list li.iphone .icon{
   width: 34px;
   background-position: -279px 0;
-}
-.app-list li.iphone:hover .icon{
-  background-position: -279px -49px;
 }
 
 .app-list li.k-song .icon{
   width: 41px;
   background-position: -370px 0;
 }
-.app-list li.k-song:hover .icon{
-  background-position: -370px -49px;
-}
 
 .app-list li.super-sound .icon{
   width: 37px;
   background-position: -463px 0;
 }
-.app-list li.super-sound:hover .icon{
-  background-position: -463px -49px;
-}
 
 .app-list li.q-play .icon{
   width: 40px;
   background-position: -563px 0;
-}
-.app-list li.q-play:hover .icon{
-  background-position: -563px -49px;
 }
 
 footer .link-list {

@@ -1,8 +1,5 @@
 nav{
   background: #fff;
-  /* top: 0; */
-  /* z-index: 2; */
-  /* box-shadow: 0 0 20px rgba(255, 255, 255, 1); */
   box-shadow: 0 0 5px rgba(100, 100, 100, 0.4);
   border-bottom: 1px solid rgba(221, 221, 221, 0.5);
 }
@@ -40,37 +37,6 @@ nav .nav-container .right-container{
   float: right;
   height: 100%;
   line-height: 90px;
-}
-nav .nav-container .right-container .search-container{
-  display: inline-block;
-  border: 1px solid #c9c9c9;
-  padding: 0 33px 0 11px;
-  line-height: 36px;
-  height: 36px;
-  margin-top: 26px;
-  position: relative;
-  border-radius: 3px;
-  background-color: #fff;
-}
-.search-container input{
-  width: 174px;
-  height: 36px;
-  border: 0 none;
-  font-size: 14px;
-  color: #000;
-  outline: none;
-
-}
-.search-container .search-icon{
-  display: inline-block;
-  position: absolute;
-  top: 50%;
-  right: 11px;
-  margin-top: -8px;
-  width: 16px;
-  height: 16px;
-  background-position: 0 -40px;
-  background-image: url(../images/icon_sprite.png);
 }
 
 .right-container .avatar{

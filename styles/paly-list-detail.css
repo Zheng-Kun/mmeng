@@ -78,27 +78,6 @@ body{
   height: 38px;
   line-height: 38px;
 }
-.sprite-icon.player-icon{
-  width: 13px;
-  height: 16px;
-  background-position: -80px -220px;
-}
-.sprite-icon.collect-icon{
-  width: 16px;
-  height: 16px;
-  background-position: -60px 0;
-  vertical-align: -4px;
-}
-.sprite-icon.comment-icon{
-  width: 16px;
-  height: 16px;
-  background-position: -140px -120px;
-}
-.sprite-icon.more-icon{
-  width: 16px;
-  height: 16px;
-  background-position: -20px -80px;
-}
 
 .song-list-content{
   position: relative;
@@ -125,18 +104,11 @@ body{
   font-size: 0;
   padding-bottom: 60px;
 }
+/* :nth-child(2n-1) 表示选择出奇数行 */
 .song-list-content .song-list-list li:nth-child(2n-1){
   background-color: #fbfbfd;
 }
-.song-list-content .song-list-list li .menu-list{
-  background-color: #f8f8f8;
-}
-.song-list-content .song-list-list li:nth-child(2n-1) .menu-list{
-  background-color: #fbfbfd;
-}
-.song-list-content .song-list-list li:hover .menu-list{
-  display: block;
-}
+
 .song-list-content .song-list-list .table-cel{
   display: inline-block;
   font-size: 14px;
@@ -156,50 +128,7 @@ body{
   width: 45%;
   position: relative;
 }
-.song-list-content .song-list-list .song .sprite-icon.exclusive{
-  height: 16px;
-  width: 34px;
-  background-position: -80px -280px;
-  vertical-align: middle;
-  margin:0 6px;
-}
-.song-list-content .song-list-list .song .menu-list{
-  position: absolute;
-  display: none;
-  padding: 7px 0;
-  right: 10px;
-  top: 0;
-  height: 50px;
-}
-.song-list-content .song-list-list .song .sprite-icon{
-  width: 36px;
-  height: 36px;
-  cursor: pointer;
-}
-.song .sprite-icon.play-icon{
-  background-position: 0 0;
-}
-.song .sprite-icon.play-icon:hover{
-  background-position: -40px 0;
-}
-.song .sprite-icon.add-icon{
-  background-position: 0 -80px;
-}
-.song .sprite-icon.add-icon:hover{
-  background-position: -40px -80px;
-}
-.song .sprite-icon.down-icon{
-  background-position: 0 -280px;
-}
-.song .sprite-icon.down-icon:hover{
-  background-position: -40px -280px;
-}
-.song .sprite-icon.share-icon{
-  background-position: 0 -40px;
-}
-.song .sprite-icon.share-icon:hover{
-  background-position: -40px -40px;
-}
+
 .song-list-content .song-list-list .artist{
   width: 20%;
 }
@@ -223,7 +152,7 @@ body{
 }
 .song-list-content .client-guide .green-btn{
   display: block;
-  margin: 20px auto 0;
+  margin: 20px auto 0 auto;
   width: 175px;
   height: 41px;
   line-height: 41px;
